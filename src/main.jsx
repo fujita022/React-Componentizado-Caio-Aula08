@@ -5,6 +5,10 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Sobre from './pages/Sobre.jsx'
 import ConteudoPrincipal from './Componentes/ConteudoPrincipal/index.jsx';
+import Servicos from './pages/Servicos.jsx';
+import Home from './pages/Home.jsx'
+import Contato from './pages/Contato.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -12,7 +16,10 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {index: true, element: <ConteudoPrincipal/>},
-      {path:"sobre", element: <Sobre/>}
+      {path:"sobre", element: <Sobre/>},
+      {path:"servicos", element: <Servicos/>},
+      {path:"home", element: <Home/>},
+      {path:"contato", element: <Contato/>},
     ]
   }
 ])

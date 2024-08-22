@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Sobre() {
     return (  
-        <h1>Ola</h1>
+        <h1>Fujita sobre</h1>
     );
 }
 
