@@ -7,4 +7,3 @@ function Sobre() {
 }
 
 export default Sobre;
-<h1>Ola</h1>
