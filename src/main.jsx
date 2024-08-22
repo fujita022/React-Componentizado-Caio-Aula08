@@ -21,6 +21,13 @@ const router = createBrowserRouter([
       {path:"home", element: <Home/>},
       {path:"contato", element: <Contato/>},
     ]
+  },
+  {
+    path: '/admin',
+    element: <LayuotAdmin/>,
+    children:[
+      {path: '/dashboard', element: <TelaDashboard/>}
+    ]
   }
 ])
 
